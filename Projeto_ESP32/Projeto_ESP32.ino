@@ -18,10 +18,10 @@
 #define LIMITE_MQ5 500 // Limite para acionar o alerta do MQ-5
 #define LIMITE_MQ135 600 // Limite para acionar o alerta do MQ-135
 
-const char* ssid = "Victor-2.4G";
-const char* password = "M3u#n0M3@foiv2";
-String numeroTelefone = "+558596994536";
-String apiKey = "9390105";
+const char* ssid = ""; // nome da rede do seu wifi
+const char* password = "" // Aqui você colocará a senha do seu wifi;
+String numeroTelefone = ""; // seus numeros de telefone
+String apiKey = ""; // aqui você deverá adicionar a ApiKey do chatbot 
 
 WiFiClientSecure client;
 DHT dht(DHTPIN, DHTTYPE);
